@@ -12,7 +12,7 @@ echo "export GRADLE_HOME=/opt/gradle" | sudo tee -a /etc/profile.d/gradle.sh
 echo "export PATH=${GRADLE_HOME}/bin:${PATH}" | sudo tee -a /etc/profile.d/gradle.sh
 sudo chmod +x /etc/profile.d/gradle.sh
 source /etc/profile.d/gradle.sh
-echo "What is your Elasticsearch endpoint?  Just the host, not the 'https://' or port.
+echo "What is your Elasticsearch endpoint?  Just the host, not the 'https://' or port."
 read HOST
 echo "What do you want your keystore password to be?"
 read PASSWORD
