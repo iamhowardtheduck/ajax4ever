@@ -20,7 +20,6 @@ echo "What port does Elasticsearch use?  If cloud, please enter 9243."
 read PORT
 cd /home/$USER/simple-data-generator && ./build_keystore.bash ${PASSWORD} ${HOST} ${PORT}
 echo "Go forth and create a demo!"
-;;
 exit
 esac
 done
